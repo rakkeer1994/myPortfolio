@@ -1,0 +1,131 @@
+.contact{
+    background-color: #191919;
+    overflow: hidden;
+}
+h1.hire__text {
+    font-size: 60px;
+}
+p.hire__text{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(29,29,36,.75);
+    font-weight: 400;
+}
+input.contact{
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    border: 2px solid rgba(0,0,0,.1);
+    border-radius: 5px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    height: 50px;
+    line-height: 46px;
+    margin: 20px 0px;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: .1px;
+    background: none;
+    border: 2px solid hsla(0,0%,100%,.2);
+}
+.contact__img{
+    border-radius: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+textarea#message{
+    height: 120px;
+    background: none;
+    padding: 0 20px;
+    width: 100%;
+    line-height: 46px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: .1px;
+    border: 2px solid hsla(0,0%,100%,.2);
+}
+button.btn.contact.pointer {
+    margin: 20px 0px;
+}
+
+
+.contact{
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: lightskyblue;
+    border-radius: 5px;
+    margin: 5px;
+    width: 97%;
+    height: 50vh;
+}
+
+.connect{
+    float: left;
+    text-align: center;
+    width: 50%;
+    margin: 1%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:  12px 12px 2px 1px rgba(0, 0, 255, .2);
+    transition: all 1s ease-in-out;
+}
+.connect:hover{
+    transform: scale(1.1);
+}
+
+.form{
+    /* float: right; */
+    text-align: center;
+    width: 50%;
+    background-color: white;
+    margin: 1%;
+    transition: all 1s ease-in-out;
+    box-shadow:  12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.form:hover{
+    transform: scale(1.1);
+}
+
+.form input{
+    width: 30%;
+    height: 20px;
+    margin: 2px 0px 2px 0px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: rgb(185, 192, 204);
+}
+
+
+.submit{
+    background-color: cadetblue;
+    transition: all 1s ease-in-out;
+    border-radius: 10px;
+}
+.submit:hover{
+    transform: scale(1.1);
+    background-color: rgb(183, 233, 133);
+    font-size: 1.rem;
+
+}
+@media(max-width:390px){
+    .connect {
+        
+        text-align: center;
+        width: 50%;
+        
+        margin-top: 50px;
+        
+        margin-bottom: 50px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 12px 12px 2px 1px rgb(0 0 255 / 20%);
+        transition: all 1s ease-in-out;
+    }
+
+    .form{
+        margin-top: 50px;
+        
+        margin-bottom: 50px;
+    }
+}

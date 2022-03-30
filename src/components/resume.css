@@ -1,0 +1,44 @@
+.resumeCont{
+    margin-top: 3rem;
+    background-color: black;
+}
+
+.subContainer{
+    width: 100%;
+    
+    height: 100vh;
+    display: flex;
+}
+
+.subLeft{
+    width: 40%;
+    height: 80vh;
+    margin: 5px;
+}
+
+.subRight{
+    width: 100%;
+    height: 80vh;
+    margin: 5px;
+}
+
+
+.resumeBtn{
+    width: 100%;
+    height: 3rem;
+    font-size: 1.3rem;
+    font-family: monospace;
+}
+
+.resumeBtn:hover{
+    transform: scale(1.1);
+    background-color:rgb(17, 17, 167) ;
+    width: 96%;
+}
+
+.para{
+    color: white;
+    padding-left: 15px;
+    line-height: 1.4;
+    box-shadow: 2px 2px;
+}

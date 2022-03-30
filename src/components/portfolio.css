@@ -1,0 +1,29 @@
+ /* portfolio styling */
+
+ .portfolio{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    box-shadow: 1px 5px 10px ;
+ }
+
+ .porthead{
+ color: #0e726a;
+ display: inline-block;
+ font-size: 30px;
+ font-weight: bold;
+ padding: 5px;
+ border-bottom: 5px solid #d89059;
+ text-align: center;
+  margin-left: 50%;
+   margin-right: 50%;
+ }
+
+ .portimage img{
+     margin: 10px;
+     padding: 10px;
+     transition: all 1s ease-in;
+ }
+ .portimage img:hover{
+     transform: scale(1.1);
+ }

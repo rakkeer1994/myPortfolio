@@ -1,0 +1,18 @@
+
+
+
+.skillbtn{
+    width: 10rem;
+    height: 3rem;
+    margin: 1%;
+    border-radius:  15px; ;
+}
+
+.skillbtn:hover{
+   transform: scale(1.1);
+   background-color: rgb(160, 55, 95);
+}
+
+.percentSpn{
+    color: white;
+}

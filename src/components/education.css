@@ -1,0 +1,24 @@
+.eduTable{
+    background-color: #fff;
+}
+
+.eduDetails{
+    background-color:aquamarine ;
+    border: 1px solid red;
+    margin: 2%;
+    padding: 13px;
+}
+
+.degree{
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: 600;
+}
+.branch{
+    font-size: 1.2rem;
+}
+
+.college{
+    font-size: 1.7rem;
+    font-family: cursive;
+}
