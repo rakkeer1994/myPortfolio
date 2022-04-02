@@ -36,3 +36,13 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
+export const Footer=()=>{
+  return (
+    <div className='footer'>
+      <footer>Copyright © 2022</footer>
+      <a href='#'>Privacy</a>  <a href='#'>Privacy</a>
+    </div>
+  )
+}

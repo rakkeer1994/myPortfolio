@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Portfolio from './components/Portfolio'
 import Resume from './components/Resume'
+import { Footer } from './components/Navbar'
 const App = () => {
   return (
     <BrowserRouter>
@@ -17,7 +18,7 @@ const App = () => {
       <Route path='/portfolio' element={<Portfolio/>}/>
       <Route path='/contact' element={<Contact/>}/>
     </Routes>
-    
+    <Footer/>
     </BrowserRouter>
     
   )

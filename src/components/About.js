@@ -18,17 +18,17 @@ const About = () => {
         <div style={detailStyle} className='aboutDetails'>
            <div  className='aboutPhoto'> <img style={photoStyle} src={aboutPic} alt='loading'/> </div>
            <div className='aboutMe'><p>Knowledgeable Front End Developer adept at creating successful websites. Proficient in HTML, CSS &
-           JAVA SCRIPT. I am a hard worker with fast learning capability and self motivated person</p>
+           JAVA SCRIPT, REACTJS. I am a hard worker with fast learning capability and self motivated person</p>
            <p>Knowledgeable Front End Developer adept at creating successful websites. Proficient in HTML, CSS &
-           JAVA SCRIPT. I am a hard worker with fast learning capability and self motivated person</p>
+           JAVA SCRIPT, REACTJS. I am a hard worker with fast learning capability and self motivated person</p>
            <p>Knowledgeable Front End Developer adept at creating successful websites. Proficient in HTML, CSS &
-           JAVA SCRIPT. I am a hard worker with fast learning capability and self motivated person</p>
+           JAVA SCRIPT, REACTJS. I am a hard worker with fast learning capability and self motivated person</p>
            <div className='icons'>
-           <a href='#'><FaFacebook/></a>
-           <a href='#'><FaFacebookMessenger/></a>
+           <a href='https://www.facebook.com/rakesh.keer.14'><FaFacebook/></a>
+           <a href='https://www.facebook.com/rakesh.keer.14'><FaFacebookMessenger/></a>
            <a href='#'> <FaInstagramSquare/></a>
-           <a href='#'><FaGithub/></a>
-           <a href='#'><FaLinkedin/></a>
+           <a href='https://github.com/rakkeer1994'><FaGithub/></a>
+           <a href='https://www.linkedin.com/in/rakesh-kumar-4246a1109/'><FaLinkedin/></a>
         </div>
            </div>
         </div>
